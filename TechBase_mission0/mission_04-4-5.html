@@ -1,0 +1,38 @@
+<html log ='ja'></html>
+<head>
+    <meta charset="UTF-8">
+    <title>mission4-3</title>
+</head>
+<body>
+    <span style="font-size: 30px;">今日の運勢を占おう！！</span>
+    <br>
+    <br>
+    <!--<div id ='omikuji'>ここに表示</div>
+    <br>
+    <script>
+        var array = ["大吉","中吉","小吉"];
+        var i = Math.random();
+        var i2 = Math.floor(i*3);
+        var message = array[i2];
+
+        var object = document.getElementById("omikuji");
+        object.innerText = message;
+    </script>-->
+    下のボタンをクリック
+    <br>
+
+    <div id = "omikuji">
+        <!--ボタンクリックでonclickイベントが利用され、datetimeshow()が実行される-->
+        <button onclick="omikujishow()">
+            御神籤を引く
+        </button>
+    </div>
+    <div id ="omikuji">
+        <script src = "mission_04-4.js"></script>
+        <button onclick="omikujishow()">
+            納得いかないもう一度
+        </button>
+        <script src = "mission_04-4.js"></script>
+    </div>
+</body>
+</html>
